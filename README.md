@@ -105,14 +105,14 @@ This project "operationalize" a sample python/[flask](https://flask.palletsproje
 - get information after expose deployment
 - kubectl get services -o wide
 
-### Step 11
+### Step 12
 - rolling-update
 - kubectl set image deployment <deployment-name> <container-name>=<new-image>
 - kubectl set image deployment hello hello=modani130484/hello:v2.0.0
 - get status after rolling-update
 - kubectl rollout status deploy hello    
 
-### Step 12
+### Step 13
 - check version app that we have
 - kubectl rollout history deploy hello
 - rollback
