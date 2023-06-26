@@ -1,6 +1,6 @@
 # Udacity AWS DevOps Engineer Capstone Project
 
-[![kcemenike](https://circleci.com/gh/kcemenike/operationalize-ml.svg?style=svg)](https://app.circleci.com/pipelines/github/modani041384/udp-p4)
+[![kcemenike](https://circleci.com/gh/kcemenike/operationalize-ml.svg?style=svg)](https://app.circleci.com/pipelines/github/modani041384/udp-p5)
 
 ## Project Overview
 
@@ -92,13 +92,13 @@ This project "operationalize" a sample python/[flask](https://flask.palletsproje
 
 ### Step 9
 - create cluster
-- eksctl create cluster --name k8s-235 --region us-east-1 --node-type t3.small --nodes 2
+- eksctl create cluster --name k8s-238 --region us-east-1 --node-type t3.small --nodes 2
 - get list clusters
 - aws eks list-clusters
 
 ### Step 10
 - deployement kubernet
-- kubectl create deployment hello --image=modani130484/hello:v1.0.0 --replicas=3
+- kubectl create deployment hello --image=modani130484/hello:v1.0.0
 - get status after deployment
 - kubectl get deployment
 
