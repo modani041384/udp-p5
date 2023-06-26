@@ -81,10 +81,11 @@ This project "operationalize" a sample python/[flask](https://flask.palletsproje
 
 ### Step 7
 - upload docker images
-- dockerpath="modani130484/hello:v2.0.0"
+- dockerpath="modani130484/hello:v1.0.0"
 - docker login
 - docker tag hello ${dockerpath}
 - echo "Docker ID and Image: $dockerpath"
+- docker push ${dockerpath}
 
 ### Step 8
  - aws configure
